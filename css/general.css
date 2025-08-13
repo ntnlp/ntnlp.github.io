@@ -16,8 +16,8 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding-top: 3rem;
+  height: 100%;
+  padding-top: 10%;
   padding-bottom: 3rem;
 }
 
