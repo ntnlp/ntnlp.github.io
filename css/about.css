@@ -4,8 +4,9 @@
   flex-direction: column;
   align-items: center;
 }
-.main-about header{
+.row1 header{
   font-family: 'Source Code Pro';
+  display: block;
   font-style: italic;
   padding: clamp(0.5rem, 2.5vw, 1rem);
   background-color: black;
