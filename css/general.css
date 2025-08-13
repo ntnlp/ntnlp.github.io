@@ -24,6 +24,6 @@ a{
   
 @media screen and (max-width: 600px) {
   .content{
-    padding-top: 4rem;
+    padding-top: 40%;
   }
 }
