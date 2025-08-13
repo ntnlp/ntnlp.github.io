@@ -1,0 +1,55 @@
+.intro_header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+.intro_header-1{
+  font-family: "Source Code Pro", monospace;
+  font-style: italic;
+  padding: 5px;
+  margin: 15px;
+  font-weight: 600; font-size: 4rem;
+  border-right: 2px solid black;
+  animation:
+   blinking 1s steps(1, end) infinite, 
+   typing 2s steps(14, end);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.intro_spiel{
+  text-align: center;
+  padding-right: 7%;padding-left: 7%;
+  line-height: 3rem;
+}
+.intro_spiel-2{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem; 
+}
+.intro_spiel a{
+  font-family: "Source Code Pro", monospace;
+  color: rgb(141, 141, 141);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  line-height: 2.5rem;
+}
+.intro_spiel a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .intro_header-1, .intro_header-2{
+    font-size: 3rem;
+  }
+}
+
+@keyframes blinking {
+  0% {border-color: transparent;}
+  50% {border-color: black;}
+  100%{border-color: transparent;}
+}
+
+@keyframes typing {
+  0% {width: 0;}
+  100% {width: 60%;}
+}
