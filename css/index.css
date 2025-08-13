@@ -32,7 +32,6 @@
   color: rgb(141, 141, 141);
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-  display: block;
   line-height: 2.5rem;
 }
 .intro_spiel a:hover{
