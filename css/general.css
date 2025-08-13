@@ -17,7 +17,8 @@ a{
   justify-content: center;
   align-items: center;
   height: 100dvh;
-  background-color: azure;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
   
