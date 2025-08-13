@@ -38,6 +38,11 @@
   color: rgb(0, 0, 0);
   text-decoration: underline;
 }
+div.ank
+{
+    float:left;
+    clear:left;
+}
 
 @media screen and (max-width: 600px) {
   .intro_header-1, .intro_header-2{
