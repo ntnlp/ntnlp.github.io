@@ -39,6 +39,8 @@
   .header_left{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
     padding: 3px;
   }
   .header_right{

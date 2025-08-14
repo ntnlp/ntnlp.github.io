@@ -10,7 +10,7 @@
   padding: clamp(0.5rem, 2.5vw, 1rem);
   background-color: black;
   color: white;
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-size: clamp(1.5em, 3vw, 2.5rem);
   margin-bottom: clamp(1rem, 3vw, 1.7rem);
 }
 .main-about .row1, .main-about .row2{
