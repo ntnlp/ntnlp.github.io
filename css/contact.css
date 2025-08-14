@@ -1,0 +1,36 @@
+.main_contact{
+  font-family: 'Source Code Pro';
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(1rem, 3vw, 10rem);
+}
+
+.main_contact header{
+  font-family: 'Source Code Pro';
+  display: block;
+  font-style: italic;
+  padding: clamp(0.5rem, 2.5vw, 1rem);
+  background-color: black;
+  color: white;
+  font-size: clamp(1rem, 2.2vw, 5rem);
+  margin-bottom: clamp(1.7rem, 3vw, 2.2rem);
+}
+
+.main_contact .row{
+  display: flex;
+  align-items: center;
+  column-gap: 3%;
+}
+
+.icon_linkedin{
+  border-radius: 10%;
+}
+
+.row img{
+  width: clamp(1.5rem, 4vw, 15rem);
+}
+
+.link_text{
+  font-size: clamp(1rem, 2vw, 4rem);
+  white-space: nowrap;
+}
